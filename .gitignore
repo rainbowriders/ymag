@@ -1,0 +1,20 @@
+/vendor
+/node_modules
+#/resources/access_token.json
+#/resources/client_secret.json
+.env
+.vagrant
+.idea
+composer.lock
+Homestead.yaml
+Vagrantfile
+resources/client_secret.json
+resources/access_token.json
+.DS_Store
+resources/assets/less/light.bak
+resources/assets/less/shadow.bak
+
+# ide-helper
+_ide_helper.php
+_ide_helper_models.php
+.phpstorm.meta.php

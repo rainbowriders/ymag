@@ -1,0 +1,224 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important; }
+
+.box-actions {
+  padding: 20px;
+  width: 300px !important; }
+
+.dashboard-card {
+  display: inline-block;
+  width: 100%; }
+
+.g-message-list-item {
+  cursor: pointer; }
+
+.theme-dark .box-actions {
+  background-color: #2f3e47 !important; }
+
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.card-box {
+  padding: 10px !important;
+  margin-bottom: 10px !important; }
+
+.content {
+  margin-top: 83px !important; }
+
+.forced .side-menu.left,
+.enlarged .side-menu.left {
+  position: fixed !important; }
+
+/* Hide topbar for desktops */
+@media (min-width: 1006px) {
+  .topbar {
+    z-index: 0 !important; }
+    .topbar .navbar {
+      display: none !important; }
+  .content {
+    margin-top: 0px !important;
+    z-index: 1000 !important; } }
+
+body {
+  padding-bottom: 0; }
+
+h4.left-padded-headings,
+.m-b-15,
+.p-l-r-10 {
+  padding-left: 15px; }
+
+td.calendar-date {
+  padding-left: 15px !important; }
+
+ul.weather-info-panel {
+  padding-left: 10px; }
+
+.quote-author {
+  font-weight: bold; }
+
+.quote-text {
+  font-style: italic; }
+
+#new-event-container .pull-right > .dropdown-menu {
+  right: 25px;
+  margin-top: -200px; }
+  #new-event-container .pull-right > .dropdown-menu .box-actions {
+    width: 350px !important; }
+
+.events-hh-mm-ss-inputs input {
+  max-width: 27%;
+  margin-right: 10px; }
+
+.events-full-width-inputs {
+  width: 100%;
+  margin-bottom: 15px; }
+
+.hourly-temp-boxes {
+  margin-bottom: 10px;
+  padding: 10px; }
+
+.topbar .topbar-left {
+  text-align: left;
+  padding-left: 10px; }
+
+i.ti-menu {
+  display: inherit;
+  position: absolute;
+  top: 20px;
+  right: 5px; }
+
+i.ti-menu:hover {
+  cursor: pointer; }
+
+@media (max-width: 1005px) {
+  i.ti-menu {
+    display: none !important; }
+  #sidebar-menu,
+  .user-box {
+    margin-left: 0px; }
+  body {
+    overflow-y: auto; } }
+
+.dashboard-card {
+  padding-bottom: 5px; }
+
+.rss-article-content {
+  white-space: nowrap;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+@media (min-width: 1005px) {
+  body {
+    overflow-y: hidden; } }
+
+.quote-btn {
+  position: absolute;
+  bottom: 25px;
+  right: 25px; }
+
+@media (max-width: 1400px) {
+  .weather-data-container {
+    padding-top: 1.5%; } }
+
+@media (max-width: 1600px) {
+  .weather-data-container {
+    padding-top: 1%; }
+  .hourly-temp-boxes {
+    margin-bottom: 0px;
+    padding: 0px 10px; }
+  #new-event-container .pull-right > .dropdown-menu {
+    margin-top: -300px; } }
+
+@media (max-width: 1400px) {
+  .weather-data-container {
+    padding-top: 0; }
+    .weather-data-container h4 {
+      line-height: 16px;
+      margin-bottom: 0; }
+    .weather-data-container h1 {
+      line-height: 22px;
+      margin-top: 0;
+      margin-bottom: 15px !important; }
+    .weather-data-container .current-weather-icon {
+      width: 30px;
+      height: 30px; }
+  .hourly-temp-boxes {
+    margin-bottom: 0px;
+    padding: 0px 10px; } }
+
+.weather-data-container {
+  padding-top: 2%; }
+
+.mail-empty {
+  background-image: url("../../images/mail-empty.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  -moz-background-size: auto; }
+
+.current-weather-icon {
+  width: 50px;
+  height: 50px; }
+
+@media (min-width: 1005px) {
+  .topbar .topbar-left {
+    margin-left: -210px; }
+  .side-menu {
+    margin-left: -210px; }
+  .content-page {
+    margin-left: 40px; }
+  #sidebar_user_name {
+    margin-left: -100px; } }
+
+#calendars-list {
+  max-height: 300px;
+  overflow-y: auto;
+  width: 100%; }
+
+@media (min-width: 1700px) {
+  #calendars-list {
+    max-height: 400px;
+    overflow-y: auto;
+    width: 100%; } }
+
+@media (max-width: 1600px) {
+  #calendars-list {
+    max-height: 240px;
+    overflow-y: auto;
+    width: 100%; } }
+
+#sidebar_user_name {
+  color: #98a6ad; }
+
+#hourly-boxes {
+  margin: 0 !important;
+  white-space: nowrap;
+  overflow-x: auto;
+  padding: 10px;
+  width: 95%;
+  position: absolute;
+  bottom: 10px; }
+
+[class^="ti-"],
+[class*=" ti-"] {
+  font-size: 0.7em; }
+
+.side-menu {
+  top: 50px; }
+
+.topbar .topbar-left {
+  height: 50px; }
+
+.topbar .topbar-left .logo {
+  line-height: 40px; }
+
+i.ti-menu {
+  top: 12px;
+  right: 10px; }
+
+.news-list {
+  margin: 0; }
+
+/*# sourceMappingURL=helpers.css.map */

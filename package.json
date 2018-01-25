@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "devDependencies": {
+    "angular": "^1.5.3",
+    "angular-cookies": "^1.5.3",
+    "angular-local-storage": "^0.2.7",
+    "angular-sanitize": "^1.5.3",
+    "gulp": "^3.8.8",
+    "laravel-elixir": "^4.0.0"
+  },
+  "dependencies": {}
+}
